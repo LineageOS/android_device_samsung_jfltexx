@@ -1,4 +1,4 @@
-# system.prop for GT-I9505
+# system.prop for jfltexx
 #
 
 # cannot take spaces
@@ -6,6 +6,6 @@ rild.libargs=-d /dev/smd0
 
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
-ro.telephony.ril_class=SamsungQualcommUiccRIL
+ro.telephony.ril_class=SamsungQualcommRIL
 telephony.lteOnGsmDevice=1
 
