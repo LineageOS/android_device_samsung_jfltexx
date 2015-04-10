@@ -1,13 +1,5 @@
 # Add device specific blobs here
 
-# Camera
-lib/libvdis.so
-cameradata/M10MO_SFW.bin
-cameradata/RS_M10MO_OL.bin
-cameradata/RS_M10MO_OS.bin
-cameradata/RS_M10MO_SL.bin
-cameradata/RS_M10MO_SS.bin
-
 # Radio
 lib/libsec-ril.so
 lib/libril.so

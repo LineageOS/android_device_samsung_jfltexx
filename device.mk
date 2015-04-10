@@ -17,6 +17,9 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
 
+# Needed if blobs were extracted with extract-files.sh script
+$(call inherit-product-if-exists, vendor/samsung/jfltexx/jfltexx-vendor.mk)
+
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltexx/overlay
 
