@@ -1,13 +1,34 @@
 # Add device specific blobs here
 
-# Camera
-lib/libvdis.so
-cameradata/M10MO_SFW.bin
-cameradata/RS_M10MO_OL.bin
-cameradata/RS_M10MO_OS.bin
-cameradata/RS_M10MO_SL.bin
-cameradata/RS_M10MO_SS.bin
-
-# Radio
-lib/libsec-ril.so
+# Radio/QMI
+bin/efsks
+bin/ks
+bin/netmgrd
+bin/qcks
+bin/qmuxd
+bin/rild
+bin/rmt_storage
+lib/libatparser.so
+lib/libdsi_netctrl.so
+lib/libdsutils.so
+lib/libfactoryutil.so
+lib/libidl.so
+lib/libnetmgr.so
+lib/libomission_avoidance.so
+lib/libqcci_legacy.so
+lib/libqdi.so
+lib/libqdp.so
+lib/libqmi.so
+lib/libqmi_client_qmux.so
+lib/libqmiservices.so
+lib/libreference-ril.so
+lib/libril-qc-qmi-1.so
+lib/libril-qcril-external.so
+lib/libril-qcril-hook-oem.so
 lib/libril.so
+lib/libsecril-client.so
+vendor/lib/libdiag.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
