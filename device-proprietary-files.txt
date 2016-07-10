@@ -1,6 +1,6 @@
 # Add device specific blobs here
 
-# Radio/QMI
+# Radio
 bin/efsks
 bin/ks
 bin/netmgrd
@@ -9,24 +9,26 @@ bin/qmuxd
 bin/rild
 bin/rmt_storage
 lib/libatparser.so
-lib/libdsi_netctrl.so
-lib/libdsutils.so
 lib/libfactoryutil.so
-lib/libidl.so
 lib/libnetmgr.so
 lib/libomission_avoidance.so
-lib/libqcci_legacy.so
-lib/libqdi.so
-lib/libqdp.so
-lib/libqmi.so
-lib/libqmi_client_qmux.so
-lib/libqmiservices.so
 lib/libreference-ril.so
 lib/libril-qc-qmi-1.so
 lib/libril-qcril-external.so
 lib/libril-qcril-hook-oem.so
 lib/libril.so
 lib/libsecril-client.so
+
+# Qualcomm framework
+lib/libdsi_netctrl.so
+lib/libdsutils.so
+lib/libidl.so
+lib/libqcci_legacy.so
+lib/libqdi.so
+lib/libqdp.so
+lib/libqmi.so
+lib/libqmiservices.so
+lib/libqmi_client_qmux.so
 vendor/lib/libdiag.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
