@@ -15,3 +15,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_DEVICE := jfltexx
 PRODUCT_NAME := cm_jfltexx
 
+# Must define radio variant before including any common things
+TARGET_RADIO_VARIANT := gsm
