@@ -28,3 +28,6 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflte
+
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/jfltexx/system.prop
