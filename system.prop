@@ -3,6 +3,8 @@
 
 # cannot take spaces
 rild.libargs=-d /dev/smd0
-rild.libpath=/system/lib/libril-qc-qmi-1.so
 telephony.lteOnGsmDevice=1
 ro.telephony.default_network=9
+
+# Vendor security patch level - guessed at build date for I9505XXUHQK1
+ro.vendor.build.security_patch=2017-11-09
