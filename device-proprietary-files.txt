@@ -1,33 +1,31 @@
 # Add device specific blobs here
 
 # Radio
-bin/efsks
-bin/ks
-bin/netmgrd
-bin/qcks
-bin/qmuxd
-bin/rild
-lib/libatparser.so
-lib/libfactoryutil.so
-lib/libnetmgr.so
-lib/libomission_avoidance.so
-lib/libreference-ril.so
-lib/libril-qc-qmi-1.so
-lib/libril-qcril-external.so
-lib/libril-qcril-hook-oem.so
-lib/libril.so
-lib/libsecril-client.so
+vendor/bin/efsks
+vendor/bin/ks
+vendor/bin/netmgrd
+vendor/bin/qcks
+vendor/bin/qmuxd
+vendor/lib/libatparser.so
+vendor/lib/libfactoryutil.so
+vendor/lib/libnetmgr.so
+vendor/lib/libomission_avoidance.so
+vendor/lib/libreference-ril.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qcril-external.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libsecril-client.so
 
 # Qualcomm framework
-lib/libdsi_netctrl.so
-lib/libdsutils.so
-lib/libidl.so
-lib/libqcci_legacy.so
-lib/libqdi.so
-lib/libqdp.so
-lib/libqmi.so
-lib/libqmiservices.so
-lib/libqmi_client_qmux.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi.so
+vendor/lib/libqmiservices.so
+vendor/lib/libqmi_client_qmux.so
 vendor/lib/libdiag.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
