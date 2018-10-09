@@ -4,7 +4,7 @@ DEVICE=jfltexx
 VENDOR=samsung
 
 OUTDIR=vendor/$VENDOR/$DEVICE
-MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
+MAKEFILE=../../../$OUTDIR/$DEVICE-vendor.mk
 
 (cat << EOF) > $MAKEFILE
 # Copyright (C) 2014 The CyanogenMod Project
@@ -61,7 +61,7 @@ done
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \\
     libtime_genoff
-\$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor-blobs.mk)
+\$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor.mk)
 EOF
 (cat << EOF) > ../../../$OUTDIR/BoardConfigVendor.mk
 # Copyright (C) 2014 The CyanogenMod Project
