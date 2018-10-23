@@ -6,17 +6,12 @@ bin/ks
 bin/netmgrd
 bin/qcks
 bin/qmuxd
-bin/rild
 lib/libatparser.so
 lib/libfactoryutil.so
 lib/libnetmgr.so
 lib/libomission_avoidance.so
-lib/libreference-ril.so
 lib/libril-qc-qmi-1.so
-lib/libril-qcril-external.so
 lib/libril-qcril-hook-oem.so
-lib/libril.so
-lib/libsecril-client.so
 
 # Qualcomm framework
 lib/libdsi_netctrl.so
