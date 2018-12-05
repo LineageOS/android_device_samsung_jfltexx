@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
+## (2) Also get non-open-source specific aspects
+$(call inherit-product, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltexx/overlay
