@@ -13,16 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
-#
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from jf-common
--include device/samsung/jf-common/BoardConfigCommon.mk
+# Inherit from jflte device
+$(call inherit-product, device/samsung/jfltexx/device.mk)
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := GT-I9505,GT-I9505G,i9505,i9505g,jflte,jfltetmo,jfltexx,jgedlte
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+PRODUCT_NAME := lineage_jfltexx
+PRODUCT_DEVICE := jfltexx
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := Samsung
