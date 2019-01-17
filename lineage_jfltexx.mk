@@ -1,5 +1,5 @@
-# Copyright (C) 2013-2016, The CyanogenMod Project
-# Copyright (C) 2017, The LineageOS Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,20 +16,20 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit from jfltexx device
+$(call inherit-product, device/samsung/jfltexx/device.mk)
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-# Inherit from jfltexx device
-$(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
 PRODUCT_NAME := lineage_jfltexx
 PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := GT-I9505
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRODUCT_NAME=jfltexx \
-  TARGET_DEVICE=jfltexx \
-  PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHQK1 release-keys"
+    TARGET_DEVICE=jfltexx \
+    PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHQK1 release-keys"
 
-BUILD_FINGERPRINT := samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys
+BUILD_FINGERPRINT := "samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys"
