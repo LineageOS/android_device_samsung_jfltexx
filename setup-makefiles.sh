@@ -17,9 +17,10 @@
 
 set -e
 
+# Required!
 export DEVICE=jfltexx
 export DEVICE_COMMON=jf-common
 export VENDOR=samsung
 export DEVICE_BRINGUP_YEAR=2013
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
