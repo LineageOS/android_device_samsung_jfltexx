@@ -16,6 +16,24 @@
       "revId": "793050f28002b3a2217690154f37beff2413a77b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "448c8544_ab10a31f",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2019-06-17T21:53:04Z",
+      "side": 1,
+      "message": "Deprecated. Use https://github.com/arco/proprietary_vendor_samsung for now.",
+      "parentUuid": "7405fac7_5498fb81",
+      "revId": "793050f28002b3a2217690154f37beff2413a77b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
