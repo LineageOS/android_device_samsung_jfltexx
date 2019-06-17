@@ -13,18 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-## (2) Also get non-open-source specific aspects if available
+# Inherit from jf-common
+$(call inherit-product, device/samsung/jf-common/jf-common.mk)
+
+# Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
 
-## device overlays
+# Device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltexx/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
-
-# Inherit from jf-common
-$(call inherit-product, device/samsung/jf-common/jf-common.mk)
 
 # Call jfltexx system props
 $(call inherit-product, device/samsung/jfltexx/system_prop.mk)
