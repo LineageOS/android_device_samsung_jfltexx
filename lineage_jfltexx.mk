@@ -29,8 +29,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9505
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRODUCT_NAME=jfltexx \
-  TARGET_DEVICE=jfltexx \
-  PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHQK1 release-keys"
+    PRODUCT_NAME=jfltexx \
+    TARGET_DEVICE=jfltexx \
+    PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHQK1 release-keys"
 
-BUILD_FINGERPRINT := samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys
+BUILD_FINGERPRINT := "samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys"
