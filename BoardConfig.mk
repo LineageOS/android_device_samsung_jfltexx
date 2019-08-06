@@ -19,6 +19,8 @@
 # Inherit from proprietary vendor
 -include vendor/samsung/jfltexx/BoardConfigVendor.mk
 
+WITH_DEXPREOPT := false
+
 # Manifest
 DEVICE_MANIFEST_FILE += device/samsung/jfltexx/manifest.xml
 
