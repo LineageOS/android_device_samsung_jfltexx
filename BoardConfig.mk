@@ -23,7 +23,7 @@
 DEVICE_MANIFEST_FILE += device/samsung/jfltexx/manifest.xml
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := GT-I9505,GT-I9505G,i9505,i9505g,jflte,jfltecan,jfltecri,jfltetmo,jfltexx,jgedlte,SGH-I337M,SGH-M919
+TARGET_OTA_ASSERT_DEVICE := jfltetmo,jfltexx,jgedlte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := jf_eur_defconfig
