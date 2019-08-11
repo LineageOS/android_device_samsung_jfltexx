@@ -23,7 +23,7 @@
 DEVICE_MANIFEST_FILE += device/samsung/jfltexx/manifest.xml
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltetmo,jfltexx,jgedlte
+TARGET_OTA_ASSERT_DEVICE := jflte,jfltecan,jfltetmo,jfltexx,jgedlte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := jf_eur_defconfig
