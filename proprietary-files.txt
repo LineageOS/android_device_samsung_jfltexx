@@ -3,6 +3,7 @@
 # Audio
 vendor/lib/libacdbloader.so
 vendor/lib/libaudcal.so
+vendor/lib/libcsd-client.so
 
 # Camera
 cameradata/M10MO_SFW.bin
