@@ -1,2 +1,0 @@
-add_lunch_combo lineage_jfltexx-eng
-add_lunch_combo lineage_jfltexx-userdebug
