@@ -25,7 +25,6 @@ vendor/lib/libmmcamera_interface2.so
 vendor/lib/libmmcamera_plugin.so
 vendor/lib/libmmcamera_statsproc31.so
 vendor/lib/libmmcamera_wavelet_lib.so
-vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmstillomx.so
 vendor/lib/liboemcamera.so
