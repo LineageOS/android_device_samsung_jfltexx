@@ -27,7 +27,3 @@ TARGET_OTA_ASSERT_DEVICE := jflte,jfltecan,jfltetmo,jfltexx,jgedlte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := jf_eur_defconfig
-
-# Partitions
-# Set to jgedlte value to maintain compatibility
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1181114368
