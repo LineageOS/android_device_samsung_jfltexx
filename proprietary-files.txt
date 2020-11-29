@@ -1,4 +1,4 @@
-# Add device specific blobs here
+## Unless otherwise stated, all blobs are extraced from I9505XXUPQG1_I9505NEEPQG1_NEE
 
 # Audio
 vendor/lib/libacdbloader.so
