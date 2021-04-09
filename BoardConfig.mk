@@ -17,7 +17,11 @@
 -include device/samsung/jf-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
+<<<<<<< HEAD
 -include vendor/samsung/jfltexx/BoardConfigVendor.mk
+=======
+include vendor/samsung/jflteatt/BoardConfigVendor.mk
+>>>>>>> 7690d06... jflteatt: Don't let builds complete without vendor tree
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jflte,jfltecan,jfltetmo,jfltexx,jgedlte
