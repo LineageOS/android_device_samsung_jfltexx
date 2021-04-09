@@ -17,7 +17,7 @@
 -include device/samsung/jf-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
--include vendor/samsung/jfltexx/BoardConfigVendor.mk
+include vendor/samsung/jfltexx/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jflte,jfltecan,jfltetmo,jfltexx,jgedlte
